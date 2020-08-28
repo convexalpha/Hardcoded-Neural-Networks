@@ -1,15 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import numpy as np
 import scipy.special
 import matplotlib.pyplot
 
-
-# In[38]:
 
 
 class neuralNetwork:
@@ -71,8 +64,6 @@ class neuralNetwork:
     
 
 
-# In[40]:
-
 
 input_nodes = 784
 hidden_nodes = 200
@@ -83,7 +74,6 @@ learning_rate = 0.1
 n = neuralNetwork(input_nodes, hidden_nodes, output_nodes, learning_rate)
 
 
-# In[41]:
 
 
 training_data_file = open("mnist_train.csv", 'r')
@@ -91,7 +81,6 @@ training_data_list = training_data_file.readlines()
 training_data_file.close()
 
 
-# In[46]:
 
 
 epochs = 10
@@ -108,15 +97,12 @@ for e in range(epochs):
     pass
 
 
-# In[47]:
 
 
 test_data_file = open("mnist_test.csv", 'r')
 test_data_list = test_data_file.readlines()
 test_data_file.close()
 
-
-# In[48]:
 
 
 scorecard = []
@@ -136,14 +122,10 @@ for record in test_data_list:
     pass
 
 
-# In[49]:
-
-
 scorecard_array = np.asarray(scorecard)
 print ("performance = ", scorecard_array.sum() / scorecard_array.size)
 
 
-# In[ ]:
 
 
 
