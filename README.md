@@ -1,7 +1,7 @@
 # Hardcoded-Neural-Networks
-A custom implementation of the various types of neural networks hard coded in Python to understand its elemental functioning 
+A custom execution of the various types of neural networks hard coded in Python to understand its elemental functioning 
 
-Basic implementation of the underlying dynamics of the elementary Neural Networsk to better interpret its working.  
+Basic implementation of the underlying dynamics of the elementary Neural Networks to better interpret their working.  
 
 ## ANN
 Trained on the MNIST dataset for recognizing handwritten digits.
