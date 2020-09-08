@@ -15,7 +15,7 @@ Trained on the MNIST dataset for recognizing handwritten digits.
 
 **Activation function used** : SoftMax
 
-**Accuracy on test set** = 98.13%
+**Accuracy on test set** = 93.8%
 
 
 
